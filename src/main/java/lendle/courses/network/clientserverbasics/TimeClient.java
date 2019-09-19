@@ -30,7 +30,7 @@ public class TimeClient {
         /////////////////////////////////////////////////////////////
         
         StringBuilder builder=new StringBuilder();
-        InputStreamReader reader=new InputStreamReader(input); //InputStreamReader : conveter byte to char.
+        InputStreamReader reader=new InputStreamReader(input); //InputStreamReader : converter byte to char.
         for(int c=reader.read(); c!=-1; c=reader.read()){ //c! = -1 : EOF
             builder.append((char)c);
         }
